@@ -1,0 +1,3 @@
+<h1>TOKO RINI</h1>
+          <p>Menjual berbagai makanan</p>
+          <img src="/Asset/Logo-Challenge-Gamelab.png" class="animate__animated animate__fadeInLeft" alt="Toko Rini" width="400px">

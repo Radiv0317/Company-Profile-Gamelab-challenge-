@@ -1,29 +1,32 @@
-/*
-    DEMO STYLE
-*/
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 body {
-    background-color: rgba(221, 221, 221, 0);
     font-family: 'Ubuntu', sans-serif;
 }
 
-p {
-    font-family: 'Ubuntu', sans-serif;
+.nav-link {
+    font-size: 1.5em;
 }
-.jumbotron{
-    background: rgb(255,105,202);
-background: radial-gradient(circle, rgba(255,105,202,1) 0%, rgba(255,35,232,1) 50%, rgba(187,39,246,0.5910072647222951) 100%);
+
+/* Navbar Scroll Transition */
+.bg-transparent {
+    transition: .1s ease-in;
 }
-#character{
-    background: rgb(255,105,202);
-    background: radial-gradient(circle, rgba(255,105,202,1) 0%, rgba(255,35,232,1) 50%, rgba(187,39,246,0.5910072647222951) 100%);
+.bg-transparent.scrolled {
+    background: rgb(101, 182, 236) !important;
+    box-shadow: 4px 8px 12px rgb(0 0 0 / 0.05);
 }
-.card{
-    box-shadow: 0 4px 10px 0 rgb(0, 0, 0);
+
+#homepage {
+    min-height: 100vh;
+    background-color: rgb(108, 195, 252);
+    padding-top: 100px;
 }
-.card:hover{
-box-shadow: 0 4px 10px 0 rgb(68, 68, 68);
+
+#product {
+    min-height: 100vh;
 }
+
 @media screen and (max-width: 600px){
     
 }
