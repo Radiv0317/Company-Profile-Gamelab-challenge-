@@ -5,28 +5,37 @@ body {
 }
 
 .nav-link {
-    font-size: 1.5em;
+    font-size: 1.1em;
+    margin-left: 1em ;
 }
-
-/* Navbar Scroll Transition */
-.bg-transparent {
-    transition: .1s ease-in;
-}
-.bg-transparent.scrolled {
-    background: rgb(101, 182, 236) !important;
-    box-shadow: 4px 8px 12px rgb(0 0 0 / 0.05);
-}
+    /* Navbar Scroll Transition */
+    .bg-transparent {
+        transition: .1s ease-in;
+    }
+    .bg-transparent.scrolled {
+        background: rgb(101, 182, 236) !important;
+        box-shadow: 4px 8px 12px rgb(0 0 0 / 0.05);
+    }
 
 #homepage {
     min-height: 100vh;
     background-color: rgb(108, 195, 252);
     padding-top: 100px;
+    /* background-image: url('/Assets/TokoNyaj-crop-edited.png');
+    background-repeat: no-repeat;
+    background-size: 50%; */
 }
+
+
 
 #product {
     min-height: 100vh;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
+    .bg-transparent {
+        background: rgb(101, 182, 236) !important;
+        box-shadow: 4px 8px 12px rgb(0 0 0 / 0.05);
+    }
     
 }
