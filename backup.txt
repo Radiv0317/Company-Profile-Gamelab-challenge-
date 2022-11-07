@@ -1,3 +1,55 @@
 <h1>TOKO RINI</h1>
           <p>Menjual berbagai makanan</p>
           <img src="/Asset/Logo-Challenge-Gamelab.png" class="animate__animated animate__fadeInLeft" alt="Toko Rini" width="400px">
+
+
+
+            <div class="jumbotron jumbotron-fluid">
+          <div class="row-reverse align-items-center">
+            <!-- Text -->
+            <div class="home-image col-6 float-lg-end">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minus itaque perspiciatis nihil suscipit praesentium nobis quos adipisci, asperiores officiis delectus quo sint error nulla obcaecati facilis quibusdam quas doloremque!</p>
+            </div>
+            <div class="home-text align-items-center mt-5 col-6 float-lg-start">
+              <h1>Selamat Datang di <img src="/Assets/Logo-Challenge-Gamelab-Transparent.png" alt="" width="100"></h1>
+              <p class="lead">
+                Sedia berbagai macam makanan ringan dan minuman
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Category -->
+<section id="category">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="/Assets/Kategori.png" class="d-block w-50" alt="..." width="250">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Makanan Ringan</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="/Assets/Logo-Challenge-Gamelab.png" class="d-block w-50" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/Assets/Logo-Challenge-Gamelab.png" class="d-block w-50" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          </button>
+        </div>
+      </section>
