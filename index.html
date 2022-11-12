@@ -47,16 +47,13 @@
                 <a class="nav-link text-center" href="#homepage">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#about">About us</a>
+                <a class="nav-link text-center" href="#about">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-center" href="#product">Produk</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#category">Kategori</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-center" href="#blog">Blog</a>
+                <a class="nav-link text-center" href="#blog">Kontak</a>
               </li>
             </ul>
           </div>
@@ -67,29 +64,28 @@
 <!-- Main Content-->
     <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
       <!-- Homepage -->
-      <section id="homepage" class="align-items-center pt-5">
+      <section id="homepage">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6 align-self-center">
-              <h1 class="display-5">Selamat Datang di</h1>
-            </div>
-            <div class="col-md-6 text-center">
-              <img class="img-thumbnail" src="/Assets/Logo-Challenge-Gamelab-Transparent.png" alt="">
+          <div class="position-relavite text-center">
+            <div class="position-absolute top-50 start-50 translate-middle">
+              <h1 class="fw-bold"><span class="red-text">Selamat</span><span> Datang</span></h1>
+              <p>Di Toko Rini</p>
+              <a style="color: white;" href="#tentang" class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="50" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+              </svg></a>
             </div>
           </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,96L48,90.7C96,85,192,75,288,74.7C384,75,480,85,576,112C672,139,768,181,864,197.3C960,213,1056,203,1152,176C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       </section>
       <!-- About us -->
       <section id="about">
         <div class="container">
           <div class="row">
-            <div class="col text-center">
-              <h2>Tentang Kami</h2>
-              <p>Toko kami dimulai dari menjual es batu, seiring berjalan nya waktu, toko kami berkembang dengan menjual sembako, pulsa, bensin, dan banyak kebutuhan lainnya.</p>
-            </div>
-            <div class="card img-hover-zoom border-0">
-              <img class="" src="/Assets/TOKO1.png" alt="">
+            <div class="card">
+              <div class="card-body">
+                <h1>Tentang Kami</h1>
+                <p>Toko kami dimulai dari menjual es batu, seiring berjalan nya waktu, toko kami berkembang dengan menjual sembako, pulsa, bensin, dan banyak kebutuhan lainnya.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -98,62 +94,87 @@
       <section id="product">
         <div class="container">
           <div id="myBtnContainer">
-            <button class="btn btn-active" onclick="filterSelection('all')"> Show all</button>
-            <button class="btn" onclick="filterSelection('makanan')"> Cars</button>
-            <button class="btn" onclick="filterSelection('minuman')"> Animals</button>
-            <button class="btn" onclick="filterSelection('sembako')"> Fruits</button>
-            <button class="btn" onclick="filterSelection('topup')"> Colors</button>
+            <button class="btn btn-active" onclick="filterSelection('all')"> Semua</button>
+            <button class="btn" onclick="filterSelection('makanan')"> Makananan</button>
+            <button class="btn" onclick="filterSelection('minuman')"> Minuman</button>
+            <button class="btn" onclick="filterSelection('sembako')"> Kebutuhan</button>
+            <button class="btn" onclick="filterSelection('topup')"> Pembayaran</button>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6 mt-5">
-              <div class="card filterDiv makanan">
-                  <img class="card-img-top" src="/Assets/Hizmil.png" alt="">
-                  <div class="card-body">
-                    <h5 class="card-title">Hizmil</h5>
-                    <p class="card-text">Rp. 3.000</p>
-                  </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-5">
-              <div class="card filterDiv minuman">
-                <img class="card-img-top" src="/Assets/Indomilk.png" alt="">
+          <div class="container2">
+            <div class="filterDiv makanan">
+              <div class="card">
+                <img class="card-img-top" src="/Assets/Hizmil.png" alt="">
                 <div class="card-body">
-                  <h5 class="card-title">Indomilk</h5>
-                  <p class="card-text">Rp. 5.000</p>
-                </div>
-            </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-5">
-              <div class="card filterDiv makanan">
-                <img class="card-img-top" src="/Assets/Mixcorn.png" alt="">
-                <div class="card-body">
-                  <h5 class="card-title">Mixcorn</h5>
+                  <h5 class="card-title">Hizmil</h5>
                   <p class="card-text">Rp. 3.000</p>
                 </div>
             </div>
             </div>
-            <div class="col-lg-6 col-md-6 mt-5">
-              <div class="card filterDiv sembako">
+            <div class="filterDiv makanan">
+              <div class="card">
+                <img class="card-img-top" src="/Assets/Mixcorn.png" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Mixcorn</h5>
+                  <p class="card-text">Rp. 2.000</p>
+                </div>
+              </div>
+            </div>
+            <div class="filterDiv minuman">
+              <div class="card">
+                <img class="card-img-top" src="/Assets/Indomilk.png" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Indomilk</h5>
+                  <p class="card-text">Rp. 3.500</p>
+                </div>
+              </div>
+            </div>
+            <div class="filterDiv minuman sembako">
+              <div class="card">
                 <img class="card-img-top" src="/Assets/Teh.png" alt="">
                 <div class="card-body">
                   <h5 class="card-title">Teh</h5>
                   <p class="card-text">Rp. 6.000</p>
                 </div>
+              </div>
             </div>
-            </div>
-            <div class="col-lg-6 col-md-6 mt-5">
-              <div class="card filterDiv topup">
+            <div class="filterDiv topup">
+              <div class="card">
                 <img class="card-img-top" src="/Assets/Topup.png" alt="">
                 <div class="card-body">
                   <h5 class="card-title">Top up</h5>
-                  <p class="card-text">Harga tergantung dari jumlah top up</p>
+                  <p class="card-text">Min Rp.20.000</p>
                 </div>
-            </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
+      <!-- Kontak -->
+     <section id="kontak">
+      <div class="container">
+        <div class="row">
+          <h1>Kontak</h1>
+          <div class="card shadow-lg">
+            <div class="card-body">
+              <p> <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>   WhatsApp</p>
+              <p></p>
+            </div>
+          </div>
+          <div class="card shadow-lg mt-4">
+            <div class="card-body">
+              
+            </div>
+          </div>
+          <div class="card shadow-lg mt-4">
+            <div class="card-body">
+              This is some text within a card body.
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
     </main>
 
     <!-- Footer -->
