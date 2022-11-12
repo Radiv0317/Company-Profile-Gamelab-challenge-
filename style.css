@@ -64,12 +64,13 @@ section {
 }
 #about .card {
   margin-top: -150px;
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(205, 222, 255);
   box-shadow: 0 4px 10px 0 rgb(5, 0, 44);
 }
 #product {
     min-height: 100vh;
     background-color:  rgb(48, 34, 155);
+    padding-bottom: 100px;
 }
 #about {
   background-color:  rgb(48, 34, 155);
@@ -115,6 +116,18 @@ section {
   .btn.btn-active {
     color: rgb(155, 155, 155);
   }
+  #kontak{
+    background: rgb(58, 41, 188);
+    color: white;
+    padding-bottom: 100px;
+  }
+  footer{
+    background: rgb(11, 2, 82);
+    color: white;
+  }
+  footer h1{
+    color: black;
+  }
 @media screen and (max-width: 769px){
     .bg-transparent {
         background: rgb(41, 28, 138) !important;
@@ -128,6 +141,16 @@ section {
       }
       .swiper-navBtn{
         display: none;
+      }
+      #homepage h1 span{
+        font-size: 50px;
+      }
+      #homepage p{
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      #homepage a svg{
+        margin-top: 40px;
       }
 }
 

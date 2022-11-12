@@ -150,3 +150,5 @@
             </div>
           </div>
     </section>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.005591059942!2d110.87865719999999!3d-7.6825459999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2826ab3c910b7c9a!2sToko%20Rini!5e0!3m2!1sid!2sid!4v1668245930769!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
