@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+section {
+    padding-top: 80px;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    transition: .15s ease-in-out;
+    color: rgba(255, 255, 255, 0.644) !important;
+} 
+.nav-link:hover, .active {
+    transform: scale(1.1);
+    color: white !important;
+}
+
+.bg-transparent {
+    transition: .1s ease-in;
+}
+
+#homepage {
+    /* padding-bottom: 10px; */
+    background: rgb(27, 18, 93);
+    /* background: linear-gradient(183deg, rgb(255, 178, 105) 0%, rgb(194, 33, 33) 50%, rgba(149,39,246,1) 100%); */
+    /* padding-top: 100px; */
+    padding: 0;
+    color: azure;
+    height: 100vh;
+}
+.red-text {
+  color: rgb(255, 53, 53);
+}
+#homepage h1 span{
+  font-size: 80px;
+}
+#homepage p{
+  font-size: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#homepage a svg{
+  margin-top: 40px;
+}
+.img-thumbnail {
+  background-color: transparent;
+  border: 0;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+  }
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+
+#homepage .arrow {
+  margin-top: 40px;
+}
+#about .card {
+  margin-top: -150px;
+  background-color: rgb(205, 222, 255);
+  box-shadow: 0 4px 10px 0 rgb(5, 0, 44);
+}
+#product {
+    min-height: 100vh;
+    background-color:  rgb(48, 34, 155);
+    padding-bottom: 100px;
+}
+#about {
+  background-color:  rgb(48, 34, 155);
+}
+#product .card {
+    transition: transform .5s ease;
+}
+#product .card:hover {
+    transform: scale(1.02);
+  }
+  .container2 {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .filterDiv {
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    display: none;
+    font-size: 14px;
+  }
+  .show {
+    display: block;
+  }
+   
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    margin: 3px;
+    background-color: rgba(249, 251, 251, 0);
+    cursor: pointer;
+    size: 14px;
+    color: white;
+  }
+  
+  .btn:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .btn.btn-active {
+    color: rgb(155, 155, 155);
+  }
+  #kontak{
+    background: rgb(58, 41, 188);
+    color: white;
+    padding-bottom: 100px;
+  }
+  footer{
+    background: rgb(11, 2, 82);
+    color: white;
+  }
+  footer h1{
+    color: black;
+  }
+@media screen and (max-width: 769px){
+    .bg-transparent {
+        background: rgb(41, 28, 138) !important;
+        box-shadow: 4px 8px 12px rgb(0 0 0 / 0.05);
+    }
+    .nav {
+        display: block;
+    }
+    .slide-content{
+        margin: 0 10px;
+      }
+      .swiper-navBtn{
+        display: none;
+      }
+      #homepage h1 span{
+        font-size: 50px;
+      }
+      #homepage p{
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      #homepage a svg{
+        margin-top: 40px;
+      }
+}
+
+@media screen and (min-width: 770px){
+    nav {
+        height: 60px;
+    }
+    .nav-item {
+        width: 95px;
+        height: 27px;
+    }
+    .nav-link {
+        padding: 0;
+    }
+    .bg-transparent.scrolled {
+        background: rgb(41, 28, 138) !important;
+        box-shadow: 4px 8px 12px rgb(0 0 0 / 0.05);
+    }
+}
